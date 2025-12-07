@@ -12,9 +12,9 @@ Este projeto foi desenvolvido como parte da disciplina de **Sistemas Embarcados*
 
 O objetivo foi resolver um problema real na indústria de rotomoldagem: a pesagem manual de plástico micronizado (em pó). O processo manual é lento e impreciso. Para solucionar isso, criamos um dispositivo eletromecânico capaz de:
 1. Receber um peso alvo via teclado numérico.
-2. [cite_start]Realizar a tara automática do recipiente.
+2. Realizar a tara automática do recipiente.
 3. Acionar uma microturbina para transportar o material.
-4. [cite_start]Monitorar o peso em tempo real e desligar o sistema automaticamente ao atingir o alvo.
+4. Monitorar o peso em tempo real e desligar o sistema automaticamente ao atingir o alvo.
 
 ---
 
