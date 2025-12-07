@@ -8,13 +8,13 @@
 
 ## 📋 Sobre o Projeto
 
-[cite_start]Este projeto foi desenvolvido como parte da disciplina de **Sistemas Embarcados** do curso de Engenharia de Software / Automação no **SENAI**[cite: 1, 3].
+Este projeto foi desenvolvido como parte da disciplina de **Sistemas Embarcados** do curso de Engenharia de Software / Automação no **SENAI**.
 
-[cite_start]O objetivo foi resolver um problema real na indústria de rotomoldagem: a pesagem manual de plástico micronizado (em pó)[cite: 10]. O processo manual é lento e impreciso. Para solucionar isso, criamos um dispositivo eletromecânico capaz de:
+O objetivo foi resolver um problema real na indústria de rotomoldagem: a pesagem manual de plástico micronizado (em pó). O processo manual é lento e impreciso. Para solucionar isso, criamos um dispositivo eletromecânico capaz de:
 1. Receber um peso alvo via teclado numérico.
-2. [cite_start]Realizar a tara automática do recipiente[cite: 27].
+2. [cite_start]Realizar a tara automática do recipiente.
 3. Acionar uma microturbina para transportar o material.
-4. [cite_start]Monitorar o peso em tempo real e desligar o sistema automaticamente ao atingir o alvo[cite: 27].
+4. [cite_start]Monitorar o peso em tempo real e desligar o sistema automaticamente ao atingir o alvo.
 
 ---
 
@@ -22,12 +22,12 @@
 
 | Componente | Função |
 | :--- | :--- |
-| **Arduino UNO R3** | [cite_start]Microcontrolador principal [cite: 11] |
-| **Célula de Carga 5kg + HX711** | [cite_start]Sensor de peso e amplificador de sinal [cite: 15, 16] |
-| **Display LCD 16x2 (I2C)** | [cite_start]Interface visual para o usuário [cite: 16] |
-| **Teclado Matricial 4x4** | [cite_start]Entrada de dados (Peso Alvo, Tara, Start/Stop) [cite: 13] |
-| **Módulo Relé 5V** | [cite_start]Atuador para ligar/desligar a turbina [cite: 12] |
-| **Mini Ventilador/Turbina** | [cite_start]Transporte do material (plástico em pó) [cite: 14] |
+| **Arduino UNO R3** | Microcontrolador principal  |
+| **Célula de Carga 5kg + HX711** | Sensor de peso e amplificador de sinal  |
+| **Display LCD 16x2 (I2C)** | Interface visual para o usuário  |
+| **Teclado Matricial 4x4** | Entrada de dados (Peso Alvo, Tara, Start/Stop)  |
+| **Módulo Relé 5V** | Atuador para ligar/desligar a turbina  |
+| **Mini Ventilador/Turbina** | Transporte do material (plástico em pó)  |
 
 ---
 
@@ -44,13 +44,13 @@
 
 ## 🚀 Desafios e Engenharia
 
-Um dos maiores desafios encontrados durante o desenvolvimento foi a física do transporte do material. [cite_start]A força da microturbina era excessiva, fazendo com que o pó de plástico fosse soprado para fora do recipiente coletor[cite: 277].
+Um dos maiores desafios encontrados durante o desenvolvimento foi a física do transporte do material. A força da microturbina era excessiva, fazendo com que o pó de plástico fosse soprado para fora do recipiente coletor.
 
 **A Solução:**
-Projetamos e implementamos um tubo em formato de **espiral** na saída da mangueira. [cite_start]Isso permitiu dissipar a energia cinética do ar, fazendo com que o pó caísse suavemente no recipiente[cite: 277].
+Projetamos e implementamos um tubo em formato de **espiral** na saída da mangueira. Isso permitiu dissipar a energia cinética do ar, fazendo com que o pó caísse suavemente no recipiente.
 
 **Resultado:**
-[cite_start]O sistema alcançou uma precisão extremamente alta, com uma divergência média de apenas **0.07g** em relação ao peso alvo[cite: 279].
+O sistema alcançou uma precisão extremamente alta, com uma divergência média de apenas **0.07g** em relação ao peso alvo.
 
 ---
 
@@ -83,13 +83,13 @@ Exemplo de Pinagem (Configurável no código):
 
 Projeto desenvolvido pela equipe:
 
-* [cite_start]**Lucas Vicente Pereira Costa** [cite: 8]
-* [cite_start]**Felipe Rohnelt Rodrigues dos Santos** [cite: 8]
-* [cite_start]**Gabriel Andrade Cunha** [cite: 8]
-* [cite_start]**Guilherme Gonçalves Mendonça** [cite: 8]
-* [cite_start]**Miguel Melo Santos** [cite: 8]
-* [cite_start]**Paulo Augusto Silva Miranda** [cite: 8]
+* **Lucas Vicente Pereira Costa** 
+* **Felipe Rohnelt Rodrigues dos Santos** 
+* **Gabriel Andrade Cunha**
+* **Guilherme Gonçalves Mendonça**
+* **Miguel Melo Santos**
+* **Paulo Augusto Silva Miranda**
 
-[cite_start]Orientador: Prof. Silvio Vidal de Miranda Junior[cite: 3].
+Orientador: Prof. Silvio Vidal de Miranda Junior.
 
 ---
